@@ -1,0 +1,30 @@
+{
+  "name": "jest-lab",
+  "version": "1.0.0",
+  "description": "a lab on using jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jest ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nilfactor/jest-lab.git"
+  },
+  "author": "Richard Williamson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nilfactor/jest-lab/issues"
+  },
+  "homepage": "https://github.com/nilfactor/jest-lab#readme",
+  "dependencies": {
+    "babel-eslint": "^8.2.6",
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "jest": "^23.5.0"
+  },
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost/"
+  }
+}
